@@ -10,7 +10,7 @@ int main()
     int A[n];
     A[0]=2;
 
-    for(int x:A)
+    for(int x:A)       //for each does not work on pointers
     {
         cout<<x<<endl;    //assigned values will show them and unassigned will give out garbage values 
     }
