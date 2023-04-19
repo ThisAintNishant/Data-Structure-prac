@@ -6,7 +6,7 @@ using namespace std;
 class A{
     public:
     A(){
-        cout<<"A is a dick";
+        cout<<"A is a A";
     }
     
     ~A(){
@@ -17,7 +17,7 @@ class A{
 class B{
     public:
     B(){
-        cout<<"B is a dick";
+        cout<<"B is a B";
     }
 };
 
@@ -25,7 +25,7 @@ class C:public A,public B
 {
     public:
     C(){
-        cout<<"C is a dick";
+        cout<<"C is a C";
     }
     ~C(){
         cout<<"Distruct";
