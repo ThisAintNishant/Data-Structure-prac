@@ -29,9 +29,9 @@ int main()
     Y[1]=new int[4];
     Y[2]=new int[4];
 
-    for(i=0; i<3; i++)
+    for(i=0; i<3; i++)          //swtiching rows
     {
-        for(j=0; j<4; j++)
+        for(j=0; j<4; j++)      //traversing row
         {
             cout<<A[i][j]<<endl;
         }
