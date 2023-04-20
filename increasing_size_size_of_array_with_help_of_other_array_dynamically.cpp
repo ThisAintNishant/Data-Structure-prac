@@ -17,7 +17,7 @@ int main()
     {
         q[i]=p[i];                    // |1|2|3|4|5| | | | | |
     }
-
+    free(p);
     p=q;
     q=NULL;
 
@@ -25,5 +25,5 @@ int main()
     {
         cout<<p[i]<<endl;
     }
-    delete [] q;
+    delete [] p;
 }
