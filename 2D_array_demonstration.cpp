@@ -36,4 +36,8 @@ int main()
             cout<<A[i][j]<<endl;
         }
     }
+
+
+    // bring 2d , compiler stores these arrays in linear format
+    //computing and traversing is done 2Dickally
 }
