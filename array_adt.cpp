@@ -7,7 +7,6 @@ struct Array
 {
     int *A;
     int size;
-    int length;
 };
 
 void display(struct Array arr)
@@ -25,7 +24,6 @@ int main()
     int n,i;
     struct Array arr;
     arr.size=0;
-    arr.length=0;
     cout<<"enter size of array: ";
     cin>>arr.size;
 
@@ -36,8 +34,6 @@ int main()
     {
         cin>>arr.A[i];
     }
-    arr.length=n;
-
     cout<<"array length is set to: "<<endl;
     cout<<arr.size<<endl;
     display(arr);
